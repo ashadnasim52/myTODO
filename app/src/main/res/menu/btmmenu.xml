@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/todo"
+        android:orderInCategory="1"
+        android:title="TODOS"
+        android:icon="@drawable/ic_menu_share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/all"
+        android:orderInCategory="2"
+        android:title="Done"
+        android:icon="@drawable/ic_menu_share"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/done"
+        android:orderInCategory="3"
+        android:title="All Todos"
+
+        android:icon="@drawable/ic_menu_share"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:hintAnimationEnabled="true">
+
+        <EditText
+            android:id="@+id/inputtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:focusedByDefault="false"
+            android:fontFamily="serif-monospace"
+
+            android:hint="Whats your goal"/>
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
